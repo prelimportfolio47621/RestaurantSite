@@ -10,6 +10,7 @@
 body {
     background: url(./images/meat1.webp);
     background-size: cover;
+    --button-padding: 10px 30px;
 }
 
 /* .white-text {
@@ -68,6 +69,8 @@ main h2 {
 main button {
     background: #fff;
     border: none;
-    padding: 10px 20px;
+    font-size: 14px;
+    padding: var(--button-padding);
+    border-radius: 30px;
     text-transform: uppercase;
 }
