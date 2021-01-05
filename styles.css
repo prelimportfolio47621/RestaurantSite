@@ -47,4 +47,27 @@ header .nav-links li a {
 
 header .nav-links li a:hover {
     color:blue;
+    transition: 0.2s;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 90px);
+}
+
+main h2 {
+    color: #fff;
+    font-size: 72px;
+    text-shadow: 5px 5px 20px #000;
+    text-transform: uppercase;
+}
+
+main button {
+    background: #fff;
+    border: none;
+    padding: 10px 20px;
+    text-transform: uppercase;
 }
